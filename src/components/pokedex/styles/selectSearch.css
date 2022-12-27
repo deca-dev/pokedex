@@ -1,0 +1,31 @@
+.custom-select {
+    appearance: none;
+    padding: 12px 200px 12px 10px;
+    box-shadow: -1px 2px 10px #0004;
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+.custom-select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: red;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+select{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+    .custom-select{
+      padding: 12px 1% 12px 1%x;
+      height: 40px;
+      width: 10%;
+    }
+  
+    select{
+        font-size: .9rem;
+    }
+   
+  }

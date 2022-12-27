@@ -1,0 +1,44 @@
+.moves__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.moves__title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+}
+
+.moves__title::after {
+    background-color: lightgray;
+    content: "";
+    display: inline-block;
+    height: 1.6px;
+    position: relative;
+    vertical-align: middle;
+    width: 80%;
+ 
+}
+
+
+.moves__title::after {
+    left: 0.5em;
+}
+
+
+.moves__card {
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: max-content;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
